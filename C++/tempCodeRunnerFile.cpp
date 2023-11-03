@@ -1,0 +1,3 @@
+
+    string ename;
+    float esalary;
