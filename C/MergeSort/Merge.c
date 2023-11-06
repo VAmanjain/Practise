@@ -69,7 +69,7 @@ void mergeSort(int *arr, int left, int right)
 int main()
 {
     int n, left, right;
-    int arr[7] = {12, 9, 5, 7, 6, 5, 23};
+    int arr[] = {12, 11, 2, 7, 14, 18, 5};
 
     n = sizeof(arr) / sizeof(arr[0]);
     left = 0;
