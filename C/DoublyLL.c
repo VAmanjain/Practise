@@ -24,7 +24,7 @@ NODE create()
                 exit(0);
         }
         printf("\nEnter the ssn,Name,Department,Designation,Salary,PhoneNo of the employee: \n");
-        scanf("%s %s %s %s %d %ld", enode->ssn, enode->name, enode->dept, enode->designation, &enode->sal, &enode->phone);
+        scanf("%s %s %s %s %d %ld", enode->ssn, enode->name, enode->dept, enode ->designation, &enode->sal, &enode->phone);
         enode->llink = NULL;
         enode->rlink = NULL;
         count++;
@@ -185,7 +185,7 @@ void main()
                 printf("\n6:DeleteAtFront");
                 printf("\n7:Double Ended Queue Demo using DLL");
                 printf("\n8:Exit \n");
-                printf("\nPlease enter your choice: ");
+                printf("\nPlease enter your choice: "); 
                 scanf("%d", &ch);
 
                 switch (ch)
