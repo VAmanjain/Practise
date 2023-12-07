@@ -1,3 +1,5 @@
+// Binary + Operator overloading as friend function
+
 #include <iostream>
 
 using namespace std;

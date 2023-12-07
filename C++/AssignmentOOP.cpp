@@ -24,8 +24,12 @@ public:
 };
 
 int main() {
-    Complex c1(3.5, 4.2);
-    Complex c2(1.1, 2.3);
+    double real1, real2, image1, image2;
+    cout<<"Enter a real and imaginary :";
+    cin>>real1>>image1>>real2>>image2;
+
+    Complex c1(real1, image1);
+    Complex c2(real2, image2);
 
     cout << "Initial complex numbers:" << endl;
     cout << "Complex 1: ";

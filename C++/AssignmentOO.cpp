@@ -11,11 +11,9 @@ private:
 public:
     MyClass(int val, const string& nm) : value(val), name(nm) {}
 
-
     MyClass& operator=(const MyClass& other) {
         if (this != &other) { 
-            value = other.value;
-            name = other.name;
+            value = other.value;           
         }
         return *this;
     }
@@ -27,8 +25,14 @@ public:
 };
 
 int main() {
-    MyClass obj1(10, "Object 1");
-    MyClass obj2(20, "Object 2");
+    int v1,v2;
+    cout<<"Enter a Value of object 1: ";
+    cin>>v1;
+    cout<<"Enter a Value of object 2: ";
+    cin>>v2;
+
+    MyClass obj1(v1, "Object 1");
+    MyClass obj2(v2, "Object 2");
 
     cout << "Initial values:" << endl;
     obj1.display();

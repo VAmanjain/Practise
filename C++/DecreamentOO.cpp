@@ -20,7 +20,11 @@ public:
 };
 
 int main() {
-    Number num(10);
+    int x;
+    cout<<"Enter a value :";
+    cin>>x;
+
+    Number num(x);
     cout << "Original Value: " << num.getValue() << endl;
     --num;
     cout << "After Decrement: " << num.getValue() << endl;
