@@ -33,7 +33,7 @@ int main() {
 
     cout << "Initial complex numbers:" << endl;
     cout << "Complex 1: ";
-    c1.display();
+    c1.display(); 
     cout << "Complex 2: ";
     c2.display();
 
