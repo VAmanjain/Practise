@@ -33,7 +33,7 @@ NODE create()
 
 NODE insertfront()
 {
-        NODE temp;
+         NODE temp;
         temp = create();
         if (first == NULL)
         {
